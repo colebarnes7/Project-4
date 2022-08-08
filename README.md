@@ -13,8 +13,10 @@ Digital payments and cyber criminal activities are evovling and fraud is very co
 ## Exploratory Data Analysis
 
 The data was normalized for the exploratory data analysis. 
+
 ![card_df](Images/card_df.PNG)
 
 The below bar graph shows that fraud remains constant as the distance increases, but at a certain distance, the probability goes from 5% to 35%. 
+
 ![distance_from_home](Images/distance_from_home.PNG)
 
