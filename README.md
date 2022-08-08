@@ -40,5 +40,14 @@ Overall, used pin number transactions are less likely to be a fraud, while used 
 
 ## Building Machine Learning Model
 
+## Webpage Development
+
+## Flask & Heroku or Other Application
+
+## Conclusion
+
+The probability of fraud remains constant as the distance from home increases but at a certain distance, the probability spikes to its max value. Also, as distance from last transaction increases, fraud increases too. In addition, used pin number transactions are less likely to be a fraud, while used chip transactions are more likely to be a fraud.
+
+
 
 
