@@ -12,7 +12,7 @@ Digital payments and cyber criminal activities are evolving and fraud is very co
 
 ## Exploratory Data Analysis
 
-Pandas was used to import anad understand the data, while sklearn was used to normalize the data, and matplotlib was used to create bar graphs.
+Pandas was used to import and understand the data, while sklearn was used to normalize the data, and matplotlib was used to create bar graphs.
 
 ![card_df](Images/card_df.PNG)
 
