@@ -32,7 +32,7 @@ Also, the below graph reveals that repeat retailer don't affect the probability 
 
 ![repeat_retailer](Images/repeat_retailer.PNG)
 
-Overall, used pin number transactions are less likely to be a fraud, while, used chip transactions are more likely to be a fraud.
+Overall, used pin number transactions are less likely to be a fraud, while used chip transactions are more likely to be a fraud.
 
 ![used_pin](Images/used_pin.PNG)
 
