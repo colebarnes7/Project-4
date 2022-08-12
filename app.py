@@ -29,8 +29,15 @@ def send():
     # Making a prediction using the model
     prediction = model.predict(final_features)
 
+    # Converts the prediction to text
+    if prediction == 0:
+        prediction_text = "This purchase was not fraud"
+
+    elif prediction == 1:
+        prediction_text = "This purchase was fraud"
+
     # Sending prediction to html page
-    return render_template('index.html', result=prediction)
+    return render_template('index.html', result=prediction_text)
 
 
 if __name__ == '__main__':
