@@ -50,7 +50,7 @@ Balanced Data:
 
 ![balanced](Images/balanced.PNG)
 
-Then, Logistics Regression model, Random Forest Classifier model, and Decision Trees were created. As a result, the accurracy and precision for both models and Decision Trees for the balanced data by oversampling and undersampling were high since they're between 0.93-0.94. 
+Then, Logistics Regression model, Random Forest Classifier model, and Decision Trees were created. As a result, the accurracy and precision for both models and Decision Trees for the balanced data by oversampling and undersampling were high since they were either at 1 or very close to 1 (see below images of results). 
 
 ### Oversampling Accuracy and Precision
 
