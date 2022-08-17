@@ -86,7 +86,7 @@ HTML and CSS  was used for webpage development. A brief description on credit ca
 
 ![webpage](Images/webpage.PNG)
 
-## Flask & Heroku or Other Application
+## Flask & Heroku
 
 ## Conclusion
 
