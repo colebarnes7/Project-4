@@ -1,20 +1,51 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700;900&display=swap');
 
-*, body {
-    font-family: 'Poppins', sans-serif;
-    font-weight: 400;
-    -webkit-font-smoothing: antialiased;
-    text-rendering: optimizeLegibility;
-    -moz-osx-font-smoothing: grayscale;
-}
 
-html, body {
-    height: 100%;
-    background-color: #b0bdc5;
-    background-image: url(https://www.google.com/imgres?imgurl=https%3A%2F%2Fpreviews.123rf.com%2Fimages%2Fkvsan%2Fkvsan1802%2Fkvsan180200043%2F94966693-card-payment-terminal-pos-terminal-with-credit-card-isolated-on-white-background-3d-render.jpg&imgrefurl=https%3A%2F%2Fwww.123rf.com%2Fphoto_94966693_card-payment-terminal-pos-terminal-with-credit-card-isolated-on-white-background-3d-render.html&tbnid=-VXGcVH0ppbJRM&vet=12ahUKEwiO4fSwl8T5AhXHg2oFHXpYCOAQMygLegUIARDfAg..i&docid=lWt-1LmjIGFzfM&w=1300&h=975&q=credit%20card%20pictures%20with%20payment%20terminal&ved=2ahUKEwiO4fSwl8T5AhXHg2oFHXpYCOAQMygLegUIARDfAg);
-    background-repeat: no-repeat;
-    overflow: hidden;
-}
+/* Body*/
+body {
+    background-color: #ededed;
+  }
+
+  /* Title Class*/
+  .title {
+    color: #0BADA6;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bolder;
+    padding-top: 25px;
+  }
+
+
+  /* Paragraph */
+  p {
+    color: black;
+    font-size: 16;
+  }
+
+/* Box Class */
+.box {
+    margin-top: 60px; 
+    margin-bottom: 62px; 
+    padding: 10px 20px 15px; 
+    color:black;
+    background-color: white; 
+  
+  }
+
+  /* Images */
+img{
+    width:100%;
+    height:100%;
+    
+  }
+
+  .active, .panel:hover{
+    border-color:#0BADA6;
+    border-style: solid;
+  }
+
+  .vizualization{
+    width:50%;
+    height:50%;
+  }
 
 
 .form-holder {
@@ -164,3 +195,15 @@ html, body {
     color: white;
     font-size: 23px;
   }
+
+  .scrolling {
+  behavior:"scroll";
+  direction:"up";
+  direction:"down";
+  direction:"right";
+  direction:"left";
+}
+
+html {
+  overflow: scroll;
+}
