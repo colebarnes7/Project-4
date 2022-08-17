@@ -82,6 +82,10 @@ Decision Trees:
 
 ## Webpage Development
 
+HTML and CSS  was used for webpage development. A brief description on credit card fraud & its significance was included along with a form that uses ML model to depict whether credit card transaction was legit or fraudulent once the fields are completed with data.
+
+![webpage](Images/webpage.PNG)
+
 ## Flask & Heroku or Other Application
 
 ## Conclusion
