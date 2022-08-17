@@ -1,103 +1,119 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Credit Card Fraud Detection</title>
-​
- <!-- Bootstrap CSS -->
-<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-​
- <!-- CSS Link-->
- <link rel="stylesheet" type="text/css" href="static/css/style.css">
-​
+    ​
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    ​
+    <!-- CSS Link-->
+    <link rel="stylesheet" type="text/css" href="static/css/style.css">
+    ​
 </head>
+
 <body id="index">
-    
-<!-- Content Section-->
-<div class="container">
-    <div class="row">
-        <div class="col-lg-6 col-md-12">
-            <div class="box" style="padding-bottom: 5px;">
-                <h3 class="title">Credit Card Fraud Detection</h3>
-                <hr>
-                <img src="static\Images\card.PNG" class="vizualization rounded center" alt="Credit Card" height="350" width="550" align=center style="z-index:-1">
+
+    <!-- Content Section-->
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6 col-md-12">
+                <div class="box" style="padding-bottom: 5px;">
+                    <h3 class="title">Credit Card Fraud Detection</h3>
+                    <hr>
+                    <img src="static\Images\card.PNG" class="vizualization rounded center" alt="Credit Card"
+                        height="350" width="650" align=center style="z-index:-1">
                     <br>
                     <br>
-                <p>Credit card fraud is when someone who isn't authorized to use your card makes purchases that you didn't authorize.</p>
+                    <p>Credit card fraud is when someone who isn't authorized to use your card makes purchases that you
+                        didn't authorize.</p>
                     <br>
-                <p>86% of consumers were a victim of credit card fraud in 2020.</p>
+                    <p>86% of consumers were a victim of credit card fraud in 2020.</p>
                     <br>
-                <p>A model was created from a well prepared and balanced dataset that was trained optimally to indicate if a specific
-                transaction was fraudulent.</p> 
+                    <p>A model was created from a well prepared and balanced dataset that was trained optimally to
+                        indicate if a specific
+                        transaction was fraudulent.</p>
+                </div>
             </div>
-        </div>
-        <div class="col-lg-6 col-md-12"> 
-            <div class="form-body">
-                <div class="form-holder">
-                    <div class="form-content">
-                        <div class="form-items">
-                            <h3>Check Credit Card Fraud</h3>
-                            <p>Fill in the data below.</p>
-                            <form method="POST" action="/send" role="form" novalidate>
-                                <div class="col-md-12">
-                                <input class="form-control" type="text" name="distanceHome" placeholder="Distance from home (miles)" required>
-                                <div class="valid-feedback">Is Valid!</div>
-                                <div class="invalid-feedback">Cannot be blank!</div>
-                                </div>
-                                <div class="col-md-12">
-                                    <input class="form-control" type="text" name="distanceLastTransaction" placeholder="Distance from last transaction (miles)" required>
-                                    <div class="valid-feedback">Is Valid</div>
-                                    <div class="invalid-feedback">Cannot be blank</div>
-                                </div>
-                                <div class="col-md-12">
-                                    <input class="form-control" type="text" name="ratioToMedian" placeholder="Ratio to median purchase price" required>
-                                    <div class="valid-feedback">Is Valid</div>
-                                    <div class="invalid-feedback">Cannot be blank</div>
-                                </div>
-                                <div class="col-md-12">
-                                    <input class="form-control" type="text" name="repeatRetailer" placeholder="Repeat Retailer (0=no, 1=yes)" required>
-                                    <div class="valid-feedback">Is Valid</div>
-                                    <div class="invalid-feedback">Cannot be blank</div>
-                                </div>
-                                <div class="col-md-12">
-                                    <input class="form-control" type="text" name="usedChip" placeholder="Used Chip (0=no, 1=yes)" required>
-                                    <div class="valid-feedback">Is Valid</div>
-                                    <div class="invalid-feedback">Cannot be blank</div>
-                                </div>
-                                <div class="col-md-12">
-                                    <input class="form-control" type="text" name="usedPIN" placeholder="Used Pin Number (0=no, 1=yes)" required>
-                                    <div class="valid-feedback">Is Valid</div>
-                                    <div class="invalid-feedback">Cannot be blank</div>
-                                </div>
-                                <div class="col-md-12">
-                                    <input class="form-control" type="text" name="onlineOrder" placeholder="Online Order (0=no, 1=yes)" required>
-                                    <div class="valid-feedback">Is Valid</div>
-                                    <div class="invalid-feedback">Cannot be blank</div>
-                                </div>
-​
-                                <div class="form-check">
-                                    <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
-                                    <label class="form-check-label">I confirm that all data is correct</label>
-                                    <div class="invalid-feedback">Please confirm that the entered data are all correct!</div>
-                                </div>
-                                <div class="form-button mt-3">
+            <div class="col-lg-6 col-md-12">
+                <div class="form-body">
+                    <div class="form-holder">
+                        <div class="form-content">
+                            <div class="form-items">
+                                <h3>Check Credit Card Fraud</h3>
+                                <p>Fill in the data below.</p>
+                                <form method="POST" action="/send" role="form" novalidate>
+                                    <div class="col-md-12">
+                                        <input class="form-control" type="text" name="distanceHome"
+                                            placeholder="Distance from home (miles)" required>
+                                        <div class="valid-feedback">Is Valid!</div>
+                                        <div class="invalid-feedback">Cannot be blank!</div>
+                                    </div>
+                                    <div class="col-md-12">
+                                        <input class="form-control" type="text" name="distanceLastTransaction"
+                                            placeholder="Distance from last transaction (miles)" required>
+                                        <div class="valid-feedback">Is Valid</div>
+                                        <div class="invalid-feedback">Cannot be blank</div>
+                                    </div>
+                                    <div class="col-md-12">
+                                        <input class="form-control" type="text" name="ratioToMedian"
+                                            placeholder="Ratio to median purchase price" required>
+                                        <div class="valid-feedback">Is Valid</div>
+                                        <div class="invalid-feedback">Cannot be blank</div>
+                                    </div>
+                                    <div class="col-md-12">
+                                        <input class="form-control" type="text" name="repeatRetailer"
+                                            placeholder="Repeat Retailer (0=no, 1=yes)" required>
+                                        <div class="valid-feedback">Is Valid</div>
+                                        <div class="invalid-feedback">Cannot be blank</div>
+                                    </div>
+                                    <div class="col-md-12">
+                                        <input class="form-control" type="text" name="usedChip"
+                                            placeholder="Used Chip (0=no, 1=yes)" required>
+                                        <div class="valid-feedback">Is Valid</div>
+                                        <div class="invalid-feedback">Cannot be blank</div>
+                                    </div>
+                                    <div class="col-md-12">
+                                        <input class="form-control" type="text" name="usedPIN"
+                                            placeholder="Used Pin Number (0=no, 1=yes)" required>
+                                        <div class="valid-feedback">Is Valid</div>
+                                        <div class="invalid-feedback">Cannot be blank</div>
+                                    </div>
+                                    <div class="col-md-12">
+                                        <input class="form-control" type="text" name="onlineOrder"
+                                            placeholder="Online Order (0=no, 1=yes)" required>
+                                        <div class="valid-feedback">Is Valid</div>
+                                        <div class="invalid-feedback">Cannot be blank</div>
+                                    </div>
+                                    ​
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="invalidCheck"
+                                            required>
+                                        <label class="form-check-label">I confirm that all data is correct</label>
+                                        <div class="invalid-feedback">Please confirm that the entered data are all
+                                            correct!</div>
+                                    </div>
+                                    <div class="form-button mt-3">
                                         <button id="submit" type="submit" class="btn btn-primary">Register</button>
-                                </div>
-                            </form>
-                            <p>{{result}}</p>
+                                    </div>
+                                </form>
+                                <p>{{result}}</p>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-</div>
-    
-​
-​
-  <!-- Bootstrap JS -->
-   <script  src="static/js/script.js"></script>
+
+    ​
+    ​
+    <!-- Bootstrap JS -->
+    <script src="static/js/script.js"></script>
 </body>
 ​
+
 </html>
